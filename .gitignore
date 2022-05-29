@@ -1,3 +1,7 @@
 *.txt
 __pycache__/
 UI_file/
+
+dist/
+build/
+chromosome.py

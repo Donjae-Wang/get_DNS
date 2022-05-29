@@ -21,7 +21,6 @@ class GetDnsUI(GetDNS):
             lambda a: os.system("ipconfig /flushdns"))
         self.ui_app.open_hosts_path_b.clicked.connect(self.open_hosts_path_b_func)
 
-
         sys.exit(app.exec_())
 
 
@@ -55,7 +54,7 @@ class GetDnsUI(GetDNS):
             list(map(self.get_ip, [domain_name for domain_name in self.domain_name_list])))
 
         self.ui_app.output_text.setPlainText(ip_domain)
-
+        self.ui_app.pg_bar.setValue(0)
 
     def main(self):
         self.show_UI()
