@@ -1,6 +1,19 @@
+#!/usr/bin/env python3
+# -*- encoding: utf-8 -*-
+'''
+@File    :   git_dns.py
+@Time    :   2022/05/29 23:21:02
+@Author  :   Donjae 
+@Version :   1.0
+@Contact :   dr_wangdj@outlook.com
+'''
+
+
+import os
+import platform
+import re
 import requests as req
 from lxml import etree
-import os, platform
 from tqdm import tqdm
 
 
@@ -19,8 +32,9 @@ class GetDNS:
                                 'avatars3.githubusercontent.com', 'avatars2.githubusercontent.com',
                                 'avatars1.githubusercontent.com', 'avatars0.githubusercontent.com']
 
-
-        self.domain_name_list = domain_name_list
+        p = r'[httpHTTPs]{,6}://'
+        self.domain_name_list = [re.sub(p, '', url)
+                                 for url in domain_name_list]
         self.ip_domain = ''
         self.pd_bar = tqdm(total=len(self.domain_name_list))
         self.headers = {
@@ -31,9 +45,10 @@ class GetDNS:
 
     def get_ip(self, domain_name):
         url = "https://ipaddress.com/website"
-        # 'https://ipaddress.com/website/github.githubassets.com'
         if domain_name.endswith('/'):
             domain_name = domain_name[:-1]
+        if domain_name.startswith('http'):
+            domain_name = domain_name.split('//')[1]
         url = '/'.join([url, domain_name])
 
         resp = req.get(url, headers=self.headers)

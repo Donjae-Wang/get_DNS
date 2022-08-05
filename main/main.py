@@ -1,3 +1,14 @@
+#!/usr/bin/env python3
+# -*- encoding: utf-8 -*-
+'''
+@File    :   main.py
+@Time    :   2022/05/29 23:20:35
+@Author  :   Donjae 
+@Version :   1.0
+@Contact :   dr_wangdj@outlook.com
+'''
+
+
 from Ui_UI_simple import *
 from git_dns import GetDNS
 import sys, os, platform
