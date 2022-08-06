@@ -1,10 +1,3 @@
-![](./main/examples/get_DNS_1.png)   
-
-![](./main/examples/get_DNS_2.jpg)   
-
-![](./main/examples/get_DNS_3.jpg)   
-
-
 ## 简单说明
 
 这个是很早之前因为要获取git还有coursera的DNS随手写的一个自用的小脚本，后来套了个GUI的壳
@@ -37,4 +30,10 @@ git_dns.py稍微修改下可以直接当CLI工具使用
 
 **Open Hosts Folder**就是打开Host文件夹，Win10和Mac应该可以正常运行  
 
-**DNS Flush**就是Win10修改之后刷新DNS用的，Mac无效
+**DNS Flush**就是Win10修改之后刷新DNS用的，Mac无效  
+
+![](./main/examples/get_DNS_1.png)   
+
+![](./main/examples/get_DNS_2.jpg)   
+
+![](./main/examples/get_DNS_3.jpg)   
