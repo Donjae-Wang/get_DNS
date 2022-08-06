@@ -1,3 +1,10 @@
+![](./main/examples/get_DNS_1.png)   
+
+![](./main/examples/get_DNS_2.jpg)   
+
+![](./main/examples/get_DNS_3.jpg)   
+
+
 ## 简单说明
 
 这个是很早之前因为要获取git还有coursera的DNS随手写的一个自用的小脚本，后来套了个GUI的壳
@@ -8,7 +15,7 @@ get_DNS主要是通过爬取ipaddress获得DNS的，大家悠着点用哈
 
 **点击GET未响应是因为GUI里面进度条的问题，那个后面修复，功能是正常的不影响，如果想看进度条可以点start那个bat文件，CLI里有正常的进度条**，CLI的进度条是正常的   
 
-QSS是套用[[GTRONICK](https://github.com/GTRONICK)]的[Aqua](https://github.com/GTRONICK/QSS/blob/master/Aqua.qss)
+QSS是套用[GTRONICK](https://github.com/GTRONICK)的[Aqua](https://github.com/GTRONICK/QSS/blob/master/Aqua.qss)
 
 **release**在[get_DNS](https://github.com/Donjae-Wong/git_dns/releases/tag/V1.0.0)   
 
