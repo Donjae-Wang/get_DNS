@@ -24,7 +24,7 @@ git_dns.py稍微修改下可以直接当CLI工具使用
 
 **Domain Name**输入框输入想获取DNS的域名，点GET就可以获取了  
 
-（ps：可以带上https://那些，不过最好去掉，可能会有bug，比如想要查bing的DNS，可以输入cn.bing.com，批量的话用空格隔开）
+（ps：可以带上https:// http:// ，不过最好去掉，可能会有bug，比如想要查bing的DNS，可以输入cn.bing.com，批量的话用空格隔开）
 
 想**全选+复制**就**双击Copy**  
 
