@@ -10,7 +10,7 @@ get_DNS主要是通过爬取ipaddress获得DNS的，大家悠着点用哈
 
 QSS是套用[[GTRONICK](https://github.com/GTRONICK)]的[Aqua](https://github.com/GTRONICK/QSS/blob/master/Aqua.qss)
 
-**release**在**[get_DNS](https://github.com/Donjae-Wong/git_dns/releases/tag/V1.0.0)**   
+**release**在[get_DNS](https://github.com/Donjae-Wong/git_dns/releases/tag/V1.0.0)   
 
 release也是pyinstaller随手打包的，没有精简包，所以有点大，解压后直接点main.exe就可以运行  
 
